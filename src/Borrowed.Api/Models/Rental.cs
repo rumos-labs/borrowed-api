@@ -14,5 +14,5 @@ public class Rental
 
     [JsonIgnore] public virtual Book? Book { get; set; } = default!;
 
-    [JsonIgnore] public virtual Borrower? Borrower { get; set; } = default!;
+    public virtual Borrower? Borrower { get; set; } = default!;
 }
